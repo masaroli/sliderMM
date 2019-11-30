@@ -1,0 +1,11 @@
+* {  margin:0;   padding:0;  }
+
+body, html {
+    height:100vh;
+    overflow:hidden;
+    font-size:100%;
+}
+@font-face {    font-family: 'klavika-bold';    src: url("../fonts/klavika-bold-webfont.woff")      }
+@font-face {    font-family: 'klavika-medium';  src: url("../fonts/klavika-medium-webfont.woff")    }
+@font-face {    font-family: 'klavika-regular'; src: url("../fonts/klavika-regular-webfont.woff")   }
+@font-face {    font-family: 'klavika-light';   src: url("../fonts/klavika-light-webfont.woff")     }

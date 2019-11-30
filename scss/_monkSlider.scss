@@ -1,0 +1,120 @@
+#slider-wrapper {
+    position:relative;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    background-image:url('../imgs/background.jpg');
+    background-repeat:no-repeat;
+    background-position-y:100%;
+    background-size:auto 100%;
+    pointer-events: none;
+    color:#fff;
+
+    section{
+        position:absolute;
+        top:0;
+        width:0;
+        width:100%;
+        height:100%;
+        display:grid;
+        grid-auto-flow: column;
+        p{  
+            position: absolute;
+            bottom: 4rem;
+            left: 2rem;
+            font-family: 'klavika-light';
+            width: 500px;
+            height: 4rem;
+        }
+
+    
+
+        div {
+            padding:1rem 4rem;
+        }
+        h1 {
+            font-family:'klavika-light';
+            text-decoration:underline;
+            font-size: 2.5rem;
+        }
+
+        .text-start-center{
+            align-self:center;
+        }
+        .text-end-center{
+            align-self:center;
+            justify-self:end;
+            text-align:right
+        }
+    };
+    ul{
+        position:absolute;
+        font-family:'klavika-light';
+
+        bottom:2rem;
+        left: 2rem;
+        border:1px dashed #fff;
+
+        .isActive{
+            background-color:#fff
+        }
+
+    }
+    ul li {
+        pointer-events: auto;
+        cursor:pointer;
+        float:left;
+        list-style-type: none;
+        padding:1rem;
+        font-size:0.75rem;
+        padding:0px 12px;
+        border-right:1px dashed #fff;
+        margin:1px;
+
+    }
+
+    ul li:nth-child(2){
+        border-left:1px dashed #fff;
+    }
+    ul li:first-child{
+        border:none;
+    }
+    ul li:last-child{
+        border-right:none;
+    }
+
+
+
+}
+
+.arrows{
+    position:absolute;
+    top:calc(50% - 25px);
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+    .arrow {
+        transition: transform 300ms ease;
+        pointer-events:auto;
+
+        cursor: pointer;
+        width:50px;
+        height:50px;
+        padding: 0 1rem;
+        img{
+            width:100%;
+            height:auto;
+        }
+        .arrow-left{
+            transform:rotate(180deg)
+        }
+    }
+}
+
+.arrow:hover{
+    transform:scale(1.1)
+}
