@@ -12,6 +12,18 @@
     pointer-events: none;
     color:#fff;
 
+    .logo{
+        position:absolute;
+        bottom:1rem;
+        right:2rem;
+        width:110px;
+        height:auto;
+        img{
+            width:100%;
+            height:auto;
+        }
+    }
+
     section{
         position:absolute;
         top:0;
@@ -36,16 +48,20 @@
         }
         h1 {
             font-family:'klavika-light';
-            text-decoration:underline;
+            font-weight:300;
             font-size: 2.5rem;
         }
-
+        .text-intro{
+            width:330px;
+        }
         .text-start-center{
+            width:330px;
             align-self:center;
         }
         .text-end-center{
             align-self:center;
             justify-self:end;
+            width:330px;
             text-align:right
         }
     };
@@ -117,4 +133,8 @@
 
 .arrow:hover{
     transform:scale(1.1)
+}
+
+.underline-fix{
+    box-shadow: 0 1px 0 rgba(#fff, 0.8);        
 }

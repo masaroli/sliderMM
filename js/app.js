@@ -21,34 +21,34 @@ document.addEventListener("DOMContentLoaded", function() {
         this.sliderData = [
             { 
                bgPositionX:'0%',
-               title:'WE ARE BREAKING <br>OUR BOW <br> OF SILENCE',
+               title:'WE ARE BREAKING OUR BOW OF SILENCE',
                text:'In January 2011, after a decade of digital, we opened the doors to our temple.'+ 
                '<br> Follow our noble eightfold path to digital enlightemment here.',
-               class:'text-start-top'
+               class:'text-intro'
              },
             {
                bgPositionX:'14.2%',
-               title:'TALENT IS GIVEN, <br> TRUE SKILL IS <br> EARNED',
+               title:'TALENT IS GIVEN, TRUE SKILL IS <br> EARNED',
                text: 'Step 1 out of 8 to digital enlightemment.',
                class:'text-start-center'
 
            },
            {
                bgPositionX:'21.3%',
-               title:'BE FLEXIBLE TO <br> CHANGE AND <br> STURDY IN <br> CONVICTION',
+               title:'BE FLEXIBLE TO CHANGE AND STURDY IN CONVICTION',
                text: 'Step 2 out of 8 to digital enlightemment.',
                class:'text-start-center'
            }, 
            {
                bgPositionX:'35.5%',
-               title:'USE MANY SKILLS, <br> YET WORK AS ONE',
+               title:'USE MANY SKILLS, YET WORK AS ONE',
                text: 'Step 3 out of 8 to digital enlightemment.',
                class:'text-end-center'
 
            },    
            {
                bgPositionX:'49.9%',
-               title:'TO MASTER ANYTHING, FIND <br> INTEREST IN <br> EVERYTHING',
+               title:'TO MASTER ANYTHING, FIND INTEREST IN EVERYTHING',
                text: 'Step 4 out of 8 to digital enlightemment.',
 
                class:'text-end-center'
@@ -56,28 +56,28 @@ document.addEventListener("DOMContentLoaded", function() {
            }, 
            {
                bgPositionX:'64.1%',
-               title:'INDIVIDUALS <br> FLOURISH <br> IF CULTURE <br> AND WISDOM <br> ARE SHARED',
+               title:'INDIVIDUALS FLOURISH IF CULTURE AND WISDOM ARE SHARED',
                text: 'Step 5 out of 8 to digital enlightemment.',
                class:'text-end-center'
 
            },  
            {
                bgPositionX:'85.4%',
-               title:'TRAIN FOR <br> PERFECTION BUT <br> AIM FOR MORE',
+               title:'TRAIN FOR PERFECTION BUT AIM FOR MORE',
                text: 'Step 6 out of 8 to digital enlightemment.',
                class:'text-start-center'
 
            }, 
            {
                bgPositionX:'99.6%',
-               title:'TAKE PRIDE IN YOUR <br> WORK BUT DO NOT <br> SEEK PRAISE',
+               title:'TAKE PRIDE IN YOUR WORK BUT DO NOT SEEK PRAISE',
                text: 'Step 7 out of 8 to digital enlightemment.',
                class:'text-start-center'
 
            },  
            {
                bgPositionX:'99.6%',
-               title:'TEMPORARY <br> SACRIFICE BRINGS <br> LASTING RESULTS',
+               title:'TEMPORARY SACRIFICE BRINGS LASTING RESULTS',
                text: 'Step 8 out of 8 to digital enlightemment.',
                class:'text-start-center'
 
@@ -211,3 +211,77 @@ document.addEventListener("DOMContentLoaded", function() {
         .to('.loader', 1, {autoAlpha:0}, '+=0.25');
     }
  }
+
+
+
+ this.sliderData = [
+    { 
+       bgPositionX:'0%',
+       title:'WE ARE BREAKING OUR BOW OF SILENCE',
+       text:'In January 2011, after a decade of digital, we opened the doors to our temple.'+ 
+       '<br> Follow our noble eightfold path to digital enlightemment here.',
+       class:'text-start-top'
+     },
+    {
+       bgPositionX:'14.2%',
+       title:'TALENT IS GIVEN, TRUE SKILL IS <br> EARNED',
+       text: 'Step 1 out of 8 to digital enlightemment.',
+       class:'text-start-center'
+
+   },
+   {
+       bgPositionX:'21.3%',
+       title:'BE FLEXIBLE TO <br> CHANGE AND <br> STURDY IN <br> CONVICTION',
+       text: 'Step 2 out of 8 to digital enlightemment.',
+       class:'text-start-center'
+   }, 
+   {
+       bgPositionX:'35.5%',
+       title:'USE MANY SKILLS, <br> YET WORK AS ONE',
+       text: 'Step 3 out of 8 to digital enlightemment.',
+       class:'text-end-center'
+
+   },    
+   {
+       bgPositionX:'49.9%',
+       title:'TO MASTER ANYTHING, FIND <br> INTEREST IN <br> EVERYTHING',
+       text: 'Step 4 out of 8 to digital enlightemment.',
+
+       class:'text-end-center'
+
+   }, 
+   {
+       bgPositionX:'64.1%',
+       title:'INDIVIDUALS <br> FLOURISH <br> IF CULTURE <br> AND WISDOM <br> ARE SHARED',
+       text: 'Step 5 out of 8 to digital enlightemment.',
+       class:'text-end-center'
+
+   },  
+   {
+       bgPositionX:'85.4%',
+       title:'TRAIN FOR <br> PERFECTION BUT <br> AIM FOR MORE',
+       text: 'Step 6 out of 8 to digital enlightemment.',
+       class:'text-start-center'
+
+   }, 
+   {
+       bgPositionX:'99.6%',
+       title:'TAKE PRIDE IN YOUR <br> WORK BUT DO NOT <br> SEEK PRAISE',
+       text: 'Step 7 out of 8 to digital enlightemment.',
+       class:'text-start-center'
+
+   },  
+   {
+       bgPositionX:'99.6%',
+       title:'TEMPORARY <br> SACRIFICE BRINGS<br>LASTING RESULTS',
+       text: 'Step 8 out of 8 to digital enlightemment.',
+       class:'text-start-center'
+
+   },   
+   {
+       bgPositionX:'113.8%',
+       title:'',
+       text: '',
+       class:'finish-slide'
+   }
+];

@@ -88,6 +88,19 @@ body, html {
   color: #fff;
 }
 
+#slider-wrapper .logo {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  width: 110px;
+  height: auto;
+}
+
+#slider-wrapper .logo img {
+  width: 100%;
+  height: auto;
+}
+
 #slider-wrapper section {
   position: absolute;
   top: 0;
@@ -114,11 +127,16 @@ body, html {
 
 #slider-wrapper section h1 {
   font-family: 'klavika-light';
-  text-decoration: underline;
+  font-weight: 300;
   font-size: 2.5rem;
 }
 
+#slider-wrapper section .text-intro {
+  width: 330px;
+}
+
 #slider-wrapper section .text-start-center {
+  width: 330px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -130,6 +148,7 @@ body, html {
       align-self: center;
   -ms-grid-column-align: end;
       justify-self: end;
+  width: 330px;
   text-align: right;
 }
 
@@ -212,6 +231,11 @@ body, html {
           transform: scale(1.1);
 }
 
+.underline-fix {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
 #contact {
   position: absolute;
   top: 0;
@@ -237,6 +261,7 @@ body, html {
   font-family: 'klavika-light';
   text-decoration: underline;
   font-size: 3rem;
+  font-weight: 300;
 }
 
 #contact .contact-wrapper .contact-info p {
